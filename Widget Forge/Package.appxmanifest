@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="34cd5a3f-0dc3-453a-b259-8454bf3c62fc"
-    Publisher="CN=lilia"
+    Name="e42a77b5-694a-4801-9c58-fce75e81921e"
+    Publisher="CN=morgu"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="34cd5a3f-0dc3-453a-b259-8454bf3c62fc" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="e42a77b5-694a-4801-9c58-fce75e81921e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Widget_Forge</DisplayName>
-    <PublisherDisplayName>lilia</PublisherDisplayName>
+    <PublisherDisplayName>morgu</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -32,11 +32,10 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="Widget_Forge.App">
       <uap:VisualElements
-        DisplayName="Widget_Forge"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="Widget_Forge"
-        BackgroundColor="transparent">
+        BackgroundColor="transparent" DisplayName="Widget Forge">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
