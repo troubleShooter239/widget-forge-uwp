@@ -119,12 +119,25 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Enums\WidgetTypes.cs" />
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Postion.cs" />
+    <Compile Include="Models\Size.cs" />
+    <Compile Include="Models\Widgets\DateWidget.cs" />
+    <Compile Include="Models\Widgets\Interfaces\IFormatter.cs" />
+    <Compile Include="Models\Widgets\Interfaces\IMedia.cs" />
+    <Compile Include="Models\Widgets\Interfaces\IShortcut.cs" />
+    <Compile Include="Models\Widgets\Interfaces\ITextSettings.cs" />
+    <Compile Include="Models\Widgets\Interfaces\IWidget.cs" />
+    <Compile Include="Models\Widgets\MediaWidget.cs" />
+    <Compile Include="Models\Widgets\ShortcutWidget.cs" />
+    <Compile Include="Models\Widgets\TimeWidget.cs" />
+    <Compile Include="Models\Widgets\Widget.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +173,9 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTO\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
